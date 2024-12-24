@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness App</title>
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">My Fitness</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Workout Page/workout.html">Workout</a></li>
+          <li><a href="../Diet Page/Food.html">Diets</a></li>
+          <div class="auth-buttons">
+            <a href="../Signup Page/signup.html" id="btn" class="btn">Sign Up</a>
+            <a href="../Login Page/login.html" id="btn2" class="btn">Log In</a>
+            <a href="../Profile Page/profile.html" id="btn3" class="btn">Profile</a>
+          </div>
+        </ul>
+
+        <div class="menu-toggle" id="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="profile-container">
+      <h1>User Profile</h1>
+      <div id="profile-info"></div>
+      <button id="logout">Logout</button>
+      <button id="connect">Connect To Device</button>
+    </div>
+    <script src="profile.js"></script>
+  </body>
+</html>

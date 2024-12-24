@@ -1,0 +1,11 @@
+This app is created using HTML CSS Javascript
+To operate it:-
+1. Create a user through sign up page.
+2. Then with the Height and Weight you entered bmi gets calculated.
+3. And based upon that BMI it shows recommendation of diet and workout.
+4. There is a login page also but it is not working because there is no external database.
+5. The app is also border line responsive.
+6. Data shown in food page and workout page are fetched using api and filtered on the basis of bmi.
+7. For the wearable device functionality it is not implemented.
+8. After logging out the data is removed from the internal storage so you need to sign up again .
+

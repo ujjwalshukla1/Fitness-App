@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness App</title>
+    <link rel="stylesheet" href="workoutStyles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">My Fitness</a>
+        </div>
+        <ul class="nav-links">
+           <li><a href="../index.html">Home</a></li>
+          <li><a href="./Workout Page/workout.html">Workout</a></li>
+          <li><a href="../Diet Page/Food.html">Diets</a></li>
+          <div class="auth-buttons">
+            <a href="../Signup Page/signup.html" id="btn" class="btn">Sign Up</a>
+            <a href="../Login Page/login.html" id="btn2" class="btn">Log In</a>
+            <a href="../Profile Page/profile.html" id="btn3" class="btn">Profile</a>
+          </div>
+        </ul>
+        
+        <div class="menu-toggle" id="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="page-title">
+      <h1>Personal Workout</h1>
+    </div>
+    <div id="personal-cards"></div>
+    <div id="personal-workout">
+      <p id="empty-message">Your Personal Workout is Empty</p>
+    </div>
+    <div class="page-title">
+      <h1>Workout Category</h1>
+    </div>
+    <div id="workout-cards"></div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h2>My Fitness</h2>
+          <p>Your ultimate destination for fitness and wellness.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><a href="mailto:info@fitlife.com">info@myfitness.com</a></li>
+            <li><a href="tel:+1234567890">+91 234 567 890</a></li>
+            <li>123 Fitness St, Workout City, INDIA</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Subscribe to Our Newsletter</h3>
+          <form id="subscribe-form">
+            <input type="email" id="email" placeholder="Your Email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+          <p id="subscribe-message"></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 FitLife. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="workoutScript.js"></script>
+  </body>
+</html>
